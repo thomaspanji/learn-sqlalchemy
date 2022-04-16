@@ -27,7 +27,7 @@ with engine.connect() as conn:
 
     # or
     for row in rs:
-#         print("name: ", row.name, "; fullname: ", row.fullname)
+        print("name: ", row.name, "; fullname: ", row.fullname)
 
 # Selecting specific columns
 with engine.connect() as conn:
@@ -45,6 +45,7 @@ with engine.connect() as conn:
     # ('Murphy', 'Eric Murphy')
     # ('Cheetos', 'Cheetah Cheetos')
 
+
 # Select with where clause
 # Joining two tables
 with engine.connect() as conn:
@@ -58,6 +59,7 @@ with engine.connect() as conn:
     # (1, 'The Start', 1, 1, 'Paryono', 'Stephen Paryono')
     # (2, 'The End', 1, 1, 'Paryono', 'Stephen Paryono')
     # (3, 'The Content', 2, 2, 'Daniel', 'Iphan Daniel')
+
 
 # Select specific columns from two tables
 with engine.connect() as conn:

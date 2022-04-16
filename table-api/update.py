@@ -1,0 +1,1 @@
+authors.update(authors.c.id == 4).values(fullname='Cheetos Citatah') 

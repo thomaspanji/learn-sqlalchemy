@@ -1,7 +1,6 @@
 from dotenv import load_dotenv, dotenv_values
 from utils import get_engine
-from sqlalchemy.sql import select
-from model import authors
+
 
 ## Two ways load the environment variables in the root folder
 # load_dotenv
